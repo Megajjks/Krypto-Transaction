@@ -2,7 +2,7 @@ import {
   Navbar,
   Footer,
   Service,
-  Transaction,
+  Transactions,
   Welcome
 } from "./components";
 import './App.css'
@@ -15,7 +15,7 @@ const App = () => {
         <Welcome/>
       </div>
       <Service/>
-      <Transaction/>
+      <Transactions/>
       <Footer/>
     </div>
   )
